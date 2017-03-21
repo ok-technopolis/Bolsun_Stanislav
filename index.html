@@ -5,46 +5,50 @@
 	<title>Title</title>
 </head>
 <body>
-	<div class="todo-header">
-		<h1 class="todo-title">todos</h1>
+	<div class="todos-header">
+		<h1 class="todos-title">todos</h1>
 	</div>
 
-	<div class="todo-main">
-		<div class="todo-add">
+	<div class="todos-main">
+		<div class="todos-add">
 			<button class="todo-add_select-all" aria-label="Mark all as completed"></button>
 			<input class="todo-add_input" placeholder="What needs to be done?" aria-label="Add todo field"/>
 		</div>
 
-		<div class="todo-list">
-			<div class="todo-list_todo">
-				<input type="checkbox" class="todo-list_todo_item-mark" aria-label="Mark as completed"/>
-				<textarea class="todo-list_todo-item-text">HTML</textarea>
-				<button class="todo-list_todo-item-remove" aria-label="Remove todo"></button>
+		<div class="todos-list">
+			<div class="todo-item">
+				<input type="checkbox" class="todo-item_text" aria-label="Mark as completed"/>
+				<textarea class="todo-item_mark">HTML</textarea>
+				<button class="todo-item_remove" aria-label="Remove todo"></button>
 			</div>
-			<div class="todo-list_todo __item-completed">
-				<input type="checkbox" checked="checked" class="todo-list_todo_item-mark __item-mark-completed" aria-label="Mark as not completed"/>
-				<textarea class="todo-list_todo-item-text">CSS</textarea>
-				<button class="todo-list_todo-item-remove" aria-label="Remove todo"></button>
+
+			<div class="todo-item __ready">
+				<input type="checkbox" class="todo-item_text" aria-label="Mark as completed"/>
+				<textarea class="todo-item_ready-mark">CSS</textarea>
+				<button class="todo-item_remove" aria-label="Remove todo"></button>
 			</div>
-			<div class="todo-list_todo">
-				<input type="checkbox" class="todo-list_todo_item-mark" aria-label="Mark as completed"/>
-				<textarea class="todo-list_todo-item-text">JS</textarea>
-				<button class="todo-list_todo-item-remove" aria-label="Remove todo"></button>
+			
+			<div class="todo-item">
+				<input type="checkbox" class="todo-item_text" aria-label="Mark as completed"/>
+				<textarea class="todo-item_mark">JS</textarea>
+				<button class="todo-item_remove" aria-label="Remove todo"></button>
 			</div>
-			<div class="todo-list_todo">
-				<input type="checkbox" class="todo-list_todo_item-mark" aria-label="Mark as completed"/>
-				<textarea class="todo-list_todo-item-text">JS Tools</textarea>
-				<button class="todo-list_todo-item-remove" aria-label="Remove todo"></button>
+			
+			<div class="todo-item">
+				<input type="checkbox" class="todo-item_text" aria-label="Mark as completed"/>
+				<textarea class="todo-item_mark">JS TOOLS</textarea>
+				<button class="todo-item_remove" aria-label="Remove todo"></button>
 			</div>
 		</div>
-		<div class="todo-action-bar">
-			<div class="todo-action-bar_counter-not-completed" aria-label="Count of not completed todo">n item left</div>
-			<div class="todo-action-bar_filtres">
-				<button class="todo-action-bar_filtres-all" data-filter="all" aria-label="Filter: show all todo items">All</button>
-				<button class="todo-action-bar_filtres-active" data-filter="active" aria-label="Filter: show active todo items">Active</button>
-				<button class="todo-action-bar_filtres-completed" data-filter="completed" aria-label="Filter: show completed todo items">completed</button>
+
+		<div class="todos-actions-bar">
+			<div class="todos-actions-bar_counter" aria-label="Count of not completed todo">n item left</div>
+			<div class="todos-filters">
+				<button class="todos-filter __active" data-filter="all" aria-label="Filter: show all todo items">All</button>
+				<button class="todos-filter" data-filter="active" aria-label="Filter: show active todo items">Active</button>
+				<button class="todos-filter __active" data-filter="completed" aria-label="Filter: show completed todo items">completed</button>
 			</div>
-			<button class="todo-action-bar_clear-completed" aria-label="Clear comleted todo items">Clear completed</button>
+			<button class="todos-actions-bar_clear-completed" aria-label="Clear comleted todo items">Clear completed</button>
 		</div>
 	</div>
 </body>
