@@ -66,6 +66,8 @@ body {
 	width: 24px;
 	border: none;
 	vertical-align: center;
+	outline: none;
+	cursor: pointer;
 }
 
 .todo-add_input {
@@ -75,10 +77,6 @@ body {
 	color: #a9a9a9;
 	border: none;
 	width: 200px;
-}
-
-
-.todo-add_input:focus {
 	outline: none;
 }
 
@@ -110,9 +108,10 @@ body {
 	color: #666666;
 	margin-top: 10px;
 	margin-left: 10px;
+	outline: none;
 }
 
-.todo-item_text:focus {
+.todo-item_mark {
 	outline: none;
 }
 
@@ -160,6 +159,8 @@ body {
 	border: none;
 	position: absolute;
 	bottom: 16px;
+	outline: none;
+	cursor: pointer;
 }
 
 /* filters */
