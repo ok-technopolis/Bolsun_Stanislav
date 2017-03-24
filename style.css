@@ -93,6 +93,10 @@ body {
 	background-color: #fafafa;
 }
 
+.todo-item:hover > .todo-item_remove {
+	display: inline-block;
+}
+
 .todo-item:after {
 	content: '';
  	display: block;
@@ -100,10 +104,12 @@ body {
 }
 
 .todo-item_text {
-	width: 500px;
+	width: 480px;
 	float: left;
 	font-size: 26px;
 	color: #666666;
+	margin-top: 10px;
+	margin-left: 10px;
 }
 
 .todo-item_text:focus {
@@ -112,10 +118,32 @@ body {
 
 .todo-item_mark {
 	float: left;
+	width: 34px;
+	height: 34px;
+	border: 1px solid black;
+	-webkit-appearance:button;
+	border: 1px solid #E3E3FF;
+	border-radius: 25px;
+	margin-top: 8px;
+	margin-left: 10px;
 }
 
 .todo-item_ready-mark {
 	float: left;
+	width: 34px;
+	height: 34px;
+	border: 1px solid black;
+	-webkit-appearance:button;
+	border: 1px solid #E3E3FF;
+	border-radius: 25px;
+	margin-top: 8px;
+	margin-left: 10px;
+}
+
+.__finished-task {
+	border: 1px solid #5dc2af;
+	background:url('./images/completed.png') no-repeat;
+	background-position: center;
 }
 
 .todo-item_mark-check {
@@ -125,6 +153,7 @@ body {
 }
 
 .todo-item_remove {
+	display: none;
 	background:url('./images/close.png');
 	width: 18px;
 	height: 18px;
