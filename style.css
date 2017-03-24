@@ -133,6 +133,8 @@ body {
 	height: 34px;
 	border: 1px solid black;
 	-webkit-appearance:button;
+	-moz-appearance: button;
+	appearance: button;
 	border: 1px solid #E3E3FF;
 	border-radius: 25px;
 	margin-top: 8px;
