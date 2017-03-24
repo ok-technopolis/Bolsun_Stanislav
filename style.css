@@ -112,10 +112,6 @@ body {
 }
 
 .todo-item_mark {
-	outline: none;
-}
-
-.todo-item_mark {
 	float: left;
 	width: 34px;
 	height: 34px;
@@ -125,6 +121,8 @@ body {
 	border-radius: 25px;
 	margin-top: 8px;
 	margin-left: 10px;
+	outline: none;
+	cursor: pointer;
 }
 
 .__finished-task {
