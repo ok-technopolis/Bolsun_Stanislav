@@ -55,11 +55,11 @@ body {
 .todos-add {
 	height: 50px;
 	line-height: 50px;
-	margin-left: 15px;
 	border-bottom: 1px solid #E3E3FF;
 }
 
 .todo-add_select-all {
+	margin-left: 15px;
 	background:url('./images/select-all.png');
 	background-repeat: no-repeat;
 	height: 12px;
