@@ -1,0 +1,163 @@
+@font-face {
+	font-family: HelveticaNeue-Light;
+	src: url(./fonts/HelveticaNeue-UltraLight.otf);
+}
+
+@font-face {
+	font-family: HelveticaNeue-LightItalic;
+	src: url(./fonts/HelveticaNeue-LightItalic.otf);
+}
+
+body {
+	background-color: #f5f5f5;
+}
+
+.todos-header {
+	text-align: center;
+}
+
+.todos-title {
+	font-family: HelveticaNeue-Light;
+	color: #ebd9d9;
+	font-size: 80px;
+}
+
+.todos-main {
+	width: 570px;
+	margin: -40px auto;
+	background-color: #ffffff;
+	border: 1px solid #E3E3FF;
+	box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.2);
+	z-index: 2;
+	position: relative;
+}
+
+.first-stage {
+	width: 564px;
+	height: 6px;
+	background-color: #ffffff;
+	margin: 40px auto;
+	z-index: 1;
+	box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.2);
+	position: relative;
+}
+
+.second-stage {
+	width: 560px;
+	height: 6px;
+	background-color: #ffffff;
+	margin: -40px auto;
+	z-index: 0;
+	box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.2);
+	position: relative;
+}
+
+.todos-add {
+	height: 40px;
+	line-height: 40px;
+	margin-left: 15px;
+	border-bottom: 1px solid #E3E3FF;
+}
+
+.todo-add_select-all {
+	background:url('./images/select-all.png');
+	background-repeat: no-repeat;
+	height: 12px;
+	width: 24px;
+	border: none;
+	vertical-align: center;
+}
+
+.todo-add_input {
+	font-size: 18px;
+	font-family: HelveticaNeue-LightItalic;
+	margin-left: 10px;
+	color: #a9a9a9;
+	border: none;
+	width: 200px;
+}
+
+
+.todo-add_input:focus {
+	outline: none;
+}
+
+
+.todo-item {
+	border-bottom: 1px solid #E3E3FF;
+	height: 50px;
+}
+
+.todo-item:after {
+	content: '';
+ 	display: block;
+ 	clear: both; 
+}
+
+.todo-item_text {
+	width: 500px;
+	float: left;
+}
+
+.todo-item_mark {
+	float: left;
+	border: 1px solid #e6e6e6;
+	border-radius: 50%;
+	position: absolute;
+	width: 36px;
+	height: 36px;
+	-webkit-appearance: none;
+	-moz-appearance: none;
+	appearance: none;
+	cursor: pointer;	
+}
+
+.todo-item_ready-mark {
+	float: left;
+}
+
+.todo-item_mark-check {
+	width: 70px;
+	height: 70px;
+	background-color: black;
+}
+
+.todos-actions-bar {
+	border-top: 1px solid #E3E3FF;
+	margin-top: 60px;
+	font-size: 14px;
+	height: 40px;
+	line-height: 40px;
+	vertical-align: center;
+}
+
+.todos-actions-bar_counter {
+	float: left;
+	margin-left: 10px;
+	color: #888888;
+}
+
+.todos-filters {
+	float: left;
+	margin-left: 120px;
+}
+
+.todos-filter {
+	border: none;
+	background-color: inherit;
+	color: #888888;
+}
+
+.__active {
+	border: 1px solid #e6e6e6;
+	border-radius: 3px;
+}
+
+.todos-actions-bar_clear-completed {
+	float: right;
+	border: none;
+	background-color: inherit;
+	color: #888888;
+	margin-top: 10px;
+	margin-right: 10px;
+}
