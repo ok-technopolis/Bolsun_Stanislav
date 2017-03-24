@@ -107,7 +107,7 @@ body {
 	font-size: 26px;
 	color: #666666;
 	margin-top: 10px;
-	margin-left: 10px;
+	margin-left: 60px;
 	outline: none;
 }
 
@@ -119,10 +119,12 @@ body {
 	-webkit-appearance:button;
 	border: 1px solid #E3E3FF;
 	border-radius: 25px;
-	margin-top: 8px;
+	margin-top: -17px;
 	margin-left: 10px;
 	outline: none;
 	cursor: pointer;
+	position: absolute;
+	top: 50%;
 }
 
 .__finished-task {
