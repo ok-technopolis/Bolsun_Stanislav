@@ -86,6 +86,7 @@ body {
 .todo-item {
 	border-bottom: 1px solid #E3E3FF;
 	min-height: 50px;
+	position: relative;
 }
 
 .todo-item:hover {
@@ -128,6 +129,8 @@ body {
 	width: 18px;
 	height: 18px;
 	border: none;
+	position: absolute;
+	bottom: 16px;
 }
 
 /* filters */
