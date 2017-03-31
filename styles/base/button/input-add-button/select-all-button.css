@@ -1,0 +1,11 @@
+.todo-add_select-all {
+	margin-left: 15px;
+	background:url('../../../../images/select-all.png');
+	background-repeat: no-repeat;
+	height: 12px;
+	width: 24px;
+	border: none;
+	vertical-align: center;
+	outline: none;
+	cursor: pointer;
+}

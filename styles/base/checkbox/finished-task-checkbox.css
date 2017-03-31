@@ -1,0 +1,5 @@
+.__finished-task {
+	border: 1px solid #5dc2af;
+	background:url('../../../images/completed.png') no-repeat;
+	background-position: center;
+}
