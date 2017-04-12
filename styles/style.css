@@ -7,7 +7,7 @@
 @import "./base/input/edit-task-input/edit-task-input.css" screen;
 @import "./base/checkbox/task-checkbox.css" screen;
 @import "./base/checkbox/finished-task-checkbox.css" screen;
-
+@import "./base/checkbox/checkbox-task.css" screen;
 
 @import "./project/blocks/action-bar/actions-bar-block.css" screen;
 @import "./project/blocks/action-bar/todo-filters-inner/todo-filters-block.css" screen;
@@ -19,6 +19,5 @@
 @import "./project/text/header/text-header.css" screen;
 @import "./project/text/item-left-filter/filter-item-left.css" screen;
 @import "./project/todo-item/todo-item.css" screen;
-
 
 @import "./base/default.css" screen;

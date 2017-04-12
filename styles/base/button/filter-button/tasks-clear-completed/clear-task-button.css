@@ -1,10 +1,11 @@
 .todos-actions-bar_clear-completed {
-	float: right;
+	/* float: right; */
 	border: none;
 	background-color: inherit;
 	color: #888888;
-	margin-top: 10px;
-	margin-right: 10px;
+	padding-right: 10px;
+	/* margin-top: 10px; */
+	/* margin-right: 10px; */
 	outline: none;
 	cursor: pointer;
 }

@@ -1,10 +1,10 @@
 .todo-add_input {
 	font-size: 18px;
+	padding-left: 5px;
 	font-family: arial;
 	margin-left: 10px;
 	color: #a9a9a9;
 	border: none;
-	width: 200px;
+	width: 60%;
 	outline: none;
-	width: 500px;
 }

@@ -1,5 +1,5 @@
 .todos-add {
-	height: 50px;
+	min-height: 50px;
 	line-height: 50px;
 	border-bottom: 1px solid #E3E3FF;
 }

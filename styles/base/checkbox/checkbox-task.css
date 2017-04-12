@@ -1,0 +1,34 @@
+.input-checkbox {
+    position: relative;
+    width: 45px;
+    height: 45px;
+    float: left;
+    margin-top: 2px;
+    margin-left: 5px;
+}
+
+.input-checkbox_target {
+    opacity: 0;
+    position: absolute;
+    top: -3px;
+    left: -3px;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+}
+
+.input-checkbox_visual {
+    position: absolute;
+    top: 10%;
+    right: 10%;
+    bottom: 10%;
+    left: 10%;
+    border-radius: 50%;
+    border: 1px solid #5dc2af;
+}
+
+.input-checkbox_target:checked ~ .input-checkbox_visual  {
+    background:url('../../../images/selected.svg') no-repeat;
+    background-position: center;
+}
+

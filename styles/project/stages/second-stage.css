@@ -1,8 +1,8 @@
 .second-stage {
-	width: 560px;
+	width: 49%;
 	height: 6px;
 	background-color: #ffffff;
-	margin: -40px auto;
+	margin: -50px auto;
 	z-index: 0;
 	box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.2);
 	position: relative;

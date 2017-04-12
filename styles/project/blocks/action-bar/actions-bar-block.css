@@ -2,7 +2,9 @@
 	border-top: 1px solid #E3E3FF;
 	margin-top: 60px;
 	font-size: 14px;
-	height: 40px;
+	min-height: 40px;
 	line-height: 40px;
-	vertical-align: center;
+	display: flex;
+	justify-content: space-between;
+	width: 100%;
 }

@@ -1,9 +1,9 @@
 .todo-item_text {
-	width: 480px;
+	width: 85%;
 	float: left;
 	font-size: 26px;
 	color: #666666;
 	margin-top: 10px;
-	margin-left: 60px;
+	margin-left: 10px;
 	outline: none;
 }
