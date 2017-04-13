@@ -1,5 +1,7 @@
+@import "../../project/text/todo-item/todo-item-text.css" screen;
+
 .input-checkbox {
-    position: relative;
+    position: absolute;
     width: 45px;
     height: 45px;
     float: left;
@@ -31,4 +33,3 @@
     background:url('../../../images/selected.svg') no-repeat;
     background-position: center;
 }
-

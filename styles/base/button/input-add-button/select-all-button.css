@@ -1,7 +1,7 @@
 .todo-add_select-all {
 	margin-left: 7px;
-	position: relative;
-	top: 2px;
+	position: absolute;
+	top: 10px;
 	background:url('../../../../images/arrow.svg');
 	background-repeat: no-repeat;
 	height: 24px;
