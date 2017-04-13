@@ -2,6 +2,8 @@
 	border-bottom: 1px solid #E3E3FF;
 	min-height: 50px;
 	position: relative;
+	display: flex;
+	justify-content: space-around;
 }
 
 .todo-item:hover {
@@ -9,7 +11,7 @@
 }
 
 .todo-item:hover > .todo-item_remove {
-	display: inline-block;
+	opacity: 0.3;
 }
 
 .todo-item:after {

@@ -4,11 +4,10 @@
 	font-size: 26px;
 	color: #666666;
 	margin-top: 10px;
-	margin-left: 60px;
 	outline: none;
 	overflow: hidden;
-	padding-right: 40px;
 	padding-bottom: 10px;
+	padding-left: 15px;
 }
 
 .__finished-task {
