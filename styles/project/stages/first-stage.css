@@ -1,0 +1,9 @@
+.first-stage {
+	width: 49.5%;
+	height: 6px;
+	background-color: #ffffff;
+	margin: 49px auto;
+	z-index: 1;
+	box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.2);
+	position: relative;
+}
