@@ -1,0 +1,17 @@
+.todos-filter {
+	border: none;
+	background-color: inherit;
+	color: #888888;
+	outline: none;
+	cursor: pointer;
+}
+
+.todos-filter:hover {
+	border: 1px solid #e6e6e6;
+	border-radius: 3px;
+}
+
+.__active {
+	border: 1px solid #e6e6e6;
+	border-radius: 3px;
+}
