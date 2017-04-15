@@ -68,7 +68,7 @@ a {
   margin-left: 7px;
   position: absolute;
   top: 10px;
-  background: url("../../images/arrow.svg") no-repeat;
+  background: url("../../../../public/images/arrow.svg") no-repeat;
   background-position: center;
   height: 24px;
   width: 34px;
@@ -78,7 +78,7 @@ a {
   cursor: pointer; }
 
 .todo-item_remove {
-  background: url("../../images/close.svg");
+  background: url("../../../../public/images/close.svg");
   width: 20px;
   height: 20px;
   border: none;
@@ -149,7 +149,7 @@ a {
   border: 1px solid #5dc2af; }
 
 .input-checkbox_target:checked ~ .input-checkbox_visual {
-  background: url("../../images/selected.svg") no-repeat;
+  background: url("../../../public/images/selected.svg") no-repeat;
   background-position: center; }
 
 body {
