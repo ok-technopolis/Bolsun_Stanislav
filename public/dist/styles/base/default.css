@@ -1,5 +1,6 @@
 /* Reset.css
 ---------------------------------------------------------------------------------- */
+@import "../../project/text/todo-item/todo-item-text.scss" screen;
 html, body {
   font-size: 15px; }
 
@@ -54,7 +55,9 @@ a {
   background-color: inherit;
   color: #888888;
   outline: none;
-  cursor: pointer; }
+  cursor: pointer;
+  border: 1px solid #ffffff;
+  border-radius: 3px; }
 
 .todos-filter:hover {
   border: 1px solid #e6e6e6;
@@ -111,6 +114,9 @@ a {
   overflow: hidden;
   padding-bottom: 10px;
   padding-left: 15px; }
+
+.todo-item_add-text {
+  outline: none; }
 
 .__finished-task {
   text-decoration: line-through;

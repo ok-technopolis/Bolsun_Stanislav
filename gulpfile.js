@@ -7,7 +7,7 @@ gulp.task('sass', () =>
         .pipe(sourcemaps.init())
         .pipe(sass().on('error', sass.logError))
         .pipe(sourcemaps.write('./'))
-        .pipe(gulp.dest('./public/dist/styles'))
+        .pipe(gulp.dest('./public/dist/styles/base'))
 );
 
 gulp.task('sass:watch', () => {
