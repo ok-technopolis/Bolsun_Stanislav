@@ -10,6 +10,10 @@
 	padding-left: 15px;
 }
 
+.todo-item_add-text {
+	outline: none;
+}
+
 .__finished-task {
 	text-decoration: line-through;
 	opacity: 0.4;
