@@ -1,5 +1,3 @@
-@import "../../project/text/todo-item/todo-item-text.scss" screen;
-
 .input-checkbox {
     position: relative;
     width: 50px;
@@ -32,6 +30,6 @@
 }
 
 .input-checkbox_target:checked ~ .input-checkbox_visual  {
-    background:url('../../../public/images/selected.svg') no-repeat;
+    background:url('../../../../public/images/selected.svg') no-repeat;
     background-position: center;
 }
