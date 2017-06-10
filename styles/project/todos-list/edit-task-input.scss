@@ -1,0 +1,32 @@
+.todo-item_text {
+	float: left;
+	width: 85%;
+	font-size: 26px;
+	color: #666666;
+	margin-top: 10px;
+	outline: none;
+	overflow: hidden;
+	padding-bottom: 10px;
+	padding-left: 15px;
+}
+
+.todo-item_add-text {
+	outline: none;
+}
+
+.__finished-task {
+	text-decoration: line-through;
+	opacity: 0.4;
+}
+
+.todo-item_text:after {
+	clear: both;
+	content: '';
+}
+
+
+.__ready {
+	text-decoration: line-through;
+	color: #a9a9a9;
+	opacity: 0.7;
+}

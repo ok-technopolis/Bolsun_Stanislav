@@ -1,0 +1,21 @@
+.todo-item {
+	border-bottom: 1px solid #E3E3FF;
+	min-height: 50px;
+	position: relative;
+	display: flex;
+	justify-content: space-around;
+}
+
+.todo-item:hover {
+	background-color: #fafafa;
+}
+
+.todo-item:hover > .todo-item_remove {
+	opacity: 0.3;
+}
+
+.todo-item:after {
+	content: '';
+ 	display: block;
+ 	clear: both; 
+}
